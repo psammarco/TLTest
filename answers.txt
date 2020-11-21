@@ -1,0 +1,16 @@
+1.
+- Incorrect crontab entry, possibly incorrect path to script
+- Cron daemon is not running
+
+2.
+Debian
+RedHat
+
+3.
+CAT EOF, also called heredoc, is a I/O redirection that tells a shell to read input from the current source until a line containing only delimiter is seen.
+This is particularly useful for providing commands to ftp, cat, echo, ssh and many other terminal / commands.
+
+4.
+
+5. 
+ssh-copy-id user@remote.local
