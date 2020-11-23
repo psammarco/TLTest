@@ -1,0 +1,10 @@
+cat <<EOF > cateof.sh
+#!/bin/sh
+echo 'wget and bsdtar are required for the script to work'
+wget -qO- https://github.com/openwrt/openwrt/archive/master.zip |bsdtar -xvf-
+if [ -d $PWD/openwrt-master ]; then
+echo '$PWD/openwrt-master has been "restored"'.
+else
+echo something went wrong...
+fi
+EOF
